@@ -1,3 +1,3 @@
-module codebot.com/greetings
+module codebot.com/greetings//fixed
 
 go 1.17
