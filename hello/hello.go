@@ -1,11 +1,12 @@
-package hello
+package main
 
 import (
 	"fmt"
-	"greetings"
+
+	"codebot.com/greetings"
 )
 
-func greet() {
+func main() {
 	message := greetings.Hello("Harry")
 	fmt.Println(message)
 }
