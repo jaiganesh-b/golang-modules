@@ -2,11 +2,18 @@ package main
 
 import (
 	"fmt"
+	"log"
 
 	"codebot.com/greetings"
 )
 
 func main() {
-	message := greetings.Hello("Harry")
+	log.SetPrefix("greetings: ")
+	log.SetFlags(0)
+	// Request a greeting message.
+	message, err := greetings.Hello("")
+	if err != nil {
+		log.Fatal(err)
+	}
 	fmt.Println(message)
 }
