@@ -12,3 +12,4 @@ Notes on Golang:
 - Go is grouped into packages, and packages are grouped into modules.
 - Modules specify dependency to run the code which includes the Go version and other modules used in the code.
 - Golang compiler always looks for main function.
+- Errors are handled by Go standard library `errors` package.
