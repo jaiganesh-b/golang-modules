@@ -2,7 +2,8 @@
 
 👋 Hello
 
-This repository is a compilation of basic Go modules.
+This repository is a compilation of basic Go modules. <br/>
+Go is a language developed by Google.
 
 If Go is set-up on a local machine use `go mod init` command along with name of the module or path to the module. <br/>
 Once MOD file is created use the command `go run .` to run the main.go file.
